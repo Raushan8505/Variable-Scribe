@@ -1,7 +1,7 @@
 function Navbartrio(){
 
 return(
-<h1></h1>
+<h1>Navbar</h1>
 )
 }
 
