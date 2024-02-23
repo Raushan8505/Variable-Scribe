@@ -16,8 +16,12 @@ import logo from "../assets/Trilo-Logo-Color.svg"
         <span></span>
         <span></span>
         <span></span>
+        <span></span>
       </div>
       <ul className={menuOpen ? "open" : ""}>
+        <li>
+          <NavLink to="/">Home</NavLink>
+        </li>
         <li>
           <NavLink to="/products">Products</NavLink>
         </li>
@@ -26,8 +30,8 @@ import logo from "../assets/Trilo-Logo-Color.svg"
         </li>
         <li>
           <NavLink to="/customers">Customers</NavLink>
-        </li>
-       <button>Sign-Out</button>
+        </li> 
+        <button className="signout">Sign-Out</button>
       </ul>
     </nav>
     
