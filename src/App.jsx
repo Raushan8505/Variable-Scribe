@@ -1,17 +1,15 @@
-
-import { BrowserRouter } from 'react-router-dom'
-import Navbartrio from './components/Navbartrio'
-import Mainroute from './components/Mainroute'
+import { Route, Routes } from "react-router-dom"
+import HomePage from './components/HomeNavbar'
+import HomeNavbar from "./components/HomeNavbar"
+import Resources from "./components/Resources"
 
 function App() {
- 
-
   return (
     <>
-     <BrowserRouter>
-     <Navbartrio/>
-    <Mainroute/>
-     </BrowserRouter>
+    <Routes>
+        <Route path="/" element={<HomeNavbar/>} />
+        <Route path="/Resources" element={<Resources/>} />
+      </Routes>
      
     </>
   )
