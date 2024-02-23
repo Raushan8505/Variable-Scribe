@@ -1,0 +1,69 @@
+.flex{
+    display: grid;
+      grid-template-columns: repeat(3, auto);
+      gap: 1%;
+      width: 80%;
+      margin: auto;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .rimg{
+    height: 200px;
+  }
+  .text8{
+    width: 60%;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  .textRight{
+    width: 40%;
+    right: 0%;
+  }
+  .rightScroll{
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  .Maincon{
+    display: flex;
+  }
+  .FootPrice{
+    display: flex;
+    justify-content: space-between;
+  }
+  .bo{
+    display: flex;
+    gap: 2%;
+  }
+  .circle{
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: skyblue;
+    /* margin-right: 10px; */
+  }
+  .smallimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .cartright{
+    border: none;
+    margin: 0px 20px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: skyblue;
+  }
