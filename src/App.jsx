@@ -2,6 +2,7 @@
 import { BrowserRouter } from 'react-router-dom'
 import Navbartrio from './components/Navbartrio'
 import Mainroute from './components/Mainroute'
+import HomeFooter from './components/HomeFooter'
 
 function App() {
  
@@ -11,6 +12,7 @@ function App() {
      <BrowserRouter>
      <Navbartrio/>
     <Mainroute/>
+    <HomeFooter/>
      </BrowserRouter>
      
     </>
