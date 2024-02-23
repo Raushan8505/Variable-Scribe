@@ -1,5 +1,5 @@
 .active{
-    background-color: #1d4ed8;
+    background-color: #00bfa5;
     color: white;
 }
 
@@ -7,8 +7,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
     position: sticky;
     top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 nav .title {
@@ -16,6 +19,7 @@ nav .title {
     margin: 1rem;
     font-weight: bold;
     text-decoration: none;
+    color: white;
 }
 
 nav ul {
@@ -24,6 +28,7 @@ nav ul {
 
 nav ul li {
    list-style: none; 
+   
 }
 
 nav ul li a {
@@ -35,7 +40,7 @@ nav ul li a {
 }
 
 nav ul li a:not(.active):hover {
-   
+    background-color: #00bfa5;
 }
 
 nav .menu {
@@ -52,8 +57,10 @@ nav .menu {
 nav .menu span {
     height: 0.4rem;
     width: 100%;
+    background-color: black;
     border-radius: 0.2rem;
 }
+
 
 
 @media (max-width: 480px) {
@@ -80,14 +87,71 @@ nav .menu span {
     nav ul li {
         width: 100%;
         text-align: center;
+       
     }
 
     nav ul li a {
         margin: 0.2rem 0.5rem;
+       
     }
+  
+}
+.logo{
+    width: 100px;
 }
 
-.logo{
-    height: 30px;
-    
+/* Home start */
+.add-product{
+    background-color: #00bfa5;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
 }
+.fw29_maincontainer{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.add-product-img{
+   padding: 1px;
+   
+}
+.add-product-img img{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+}
+.fw29_text{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250px;
+    padding: 20px;
+    text-wrap: wrap;
+}
+
+.fw29_add_product_div{
+    margin-left: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.fw29_revenue{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 250px;
+    margin-left: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+.fw29_revenue p{
+    font-size: 20px;
+}
+.fw29_revenue h1{
+    font-size: 30px;
+}
+
+/* Home Ends */
