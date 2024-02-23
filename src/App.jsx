@@ -14,7 +14,7 @@ function App() {
     <>
      <BrowserRouter>
       <Navbartrio />
-      <Teamcard />
+      {/* <Teamcard /> */}
     <Mainroute/>
     <HomeFooter/>
      </BrowserRouter>
