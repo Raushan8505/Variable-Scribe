@@ -1,82 +1,93 @@
 import Card from 'react-bootstrap/Card';
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 function Teamcard() {
     return (
+        <div>
+            <h1 style={{ textAlign: 'center' }}>Our Team Members</h1>
+
         <div className="team">
-{/* <h1>Our Team Members</h1> */}
-            <Card style={{ width: '18rem'}}>
-                <Card.Img variant="top" src="holder.js/100px180"  />
+            <Card style={{ width: '18rem', height: '24rem' }}>
+               <div className="teamimage">
+               <Card.Img variant="top" src="src/assets/Mayank_image.png" />
+               </div>
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                    <Card.Title>Name</Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted">Full Stack Developer</Card.Subtitle>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the cards content.
+                        description
                     </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Card Link</Card.Link>
+                    <Card.Link href="#"><FaGithub /></Card.Link>
+                    <Card.Link href="#"><FaLinkedin /></Card.Link>
                 </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem'}}>
-                <Card.Img variant="top" src="holder.js/100px180"  />
+            <Card style={{ width: '18rem', height: '24rem' }}>
+               <div className="teamimage">
+               <Card.Img variant="top" src="src/assets/Mayank_image.png" />
+               </div>
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                    <Card.Title>Name</Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted">Full Stack Developer</Card.Subtitle>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the cards content.
+                        description
                     </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Card Link</Card.Link>
+                    <Card.Link href="#"><FaGithub /></Card.Link>
+                    <Card.Link href="#"><FaLinkedin /></Card.Link>
                 </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem'}}>
-                <Card.Img variant="top" src="holder.js/100px180"  />
+            <Card style={{ width: '18rem', height: '24rem' }}>
+               <div className="teamimage">
+               <Card.Img variant="top" src="src/assets/Mayank_image.png" />
+               </div>
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                    <Card.Title>Name</Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted">Full Stack Developer</Card.Subtitle>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the cards content.
+                        description
                     </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Card Link</Card.Link>
+                    <Card.Link href="#"><FaGithub /></Card.Link>
+                    <Card.Link href="#"><FaLinkedin /></Card.Link>
                 </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem'}}>
-                <Card.Img variant="top" src="holder.js/100px180"  />
+            <Card style={{ width: '18rem', height: '24rem' }}>
+               <div className="teamimage">
+               <Card.Img variant="top" src="src/assets/Mayank_image.png" />
+               </div>
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                    <Card.Title>Name</Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted">Full Stack Developer</Card.Subtitle>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the cards content.
+                        description
                     </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Card Link</Card.Link>
+                    <Card.Link href="#"><FaGithub /></Card.Link>
+                    <Card.Link href="#"><FaLinkedin /></Card.Link>
                 </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem'}}>
-                <Card.Img variant="top" src="holder.js/100px180"  />
+            <Card style={{ width: '18rem', height: '24rem' }}>
+               <div className="teamimage">
+               <Card.Img variant="top" src="src/assets/Mayank_image.png" />
+               </div>
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                    <Card.Title>Name</Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted">Full Stack Developer</Card.Subtitle>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the cards content.
+                        description
                     </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Card Link</Card.Link>
+                    <Card.Link href="#"><FaGithub /></Card.Link>
+                    <Card.Link href="#"><FaLinkedin /></Card.Link>
                 </Card.Body>
             </Card>
+
+
+           
 
             
-
-          
+        </div>
         </div>
     );
 }
