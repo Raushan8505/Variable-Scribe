@@ -1,12 +1,14 @@
 import React, { useEffect } from 'react'
 import { Button, Card } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux';
+import { getPost } from './ProductRedux/productAction';
+import "./ProductCard.css";
 
 function ProductCard() {
     const dispatch = useDispatch();
-    const data = useSelector((state)=>state.product)
+    const data = useSelector((state)=>state.product?.todos)
 
-    // console.log(data);
+    console.log(data);
 
     useEffect(()=>{
         dispatch(getPost());
@@ -23,7 +25,7 @@ function ProductCard() {
           <Card.Text>
             {item.content}
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button variant="success">Available</Button>
         </Card.Body>
       </Card>
       ))}
@@ -31,4 +33,4 @@ function ProductCard() {
     )
 }
 
-export default ProductCard
+export default ProductCard;
