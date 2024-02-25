@@ -11,6 +11,7 @@ import pic4 from '../../assets/Home_Imgs/Desktop_BR-2x.png';
 import AtlassianSolution from './AtlassianSolution';
 import Essential from './Essential';
 import Career from './Career';
+import Footer from './Footer';
 
 
 const navigation = [
@@ -28,7 +29,7 @@ const HomeNavbar = () => {
   return (
     <>
     {/* Navbar */}
-    <Disclosure as="nav" className="bg-slate-100 mb-1  homenav_h">
+    <Disclosure as="nav" className="bg-slate-100 mb-1  homenav_h" id="HomeNav_H">
       {({ open }) => (
         <>
           <div className="mx-5 max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -48,7 +49,7 @@ const HomeNavbar = () => {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-6 w-auto"
+                     id ="Img_logo_h"
                     src="https://wac-cdn.atlassian.com/dam/jcr:616e6748-ad8c-48d9-ae93-e49019ed5259/Atlassian-horizontal-blue-rgb.svg?cdnVersion=1456"
                     alt="Your Company"
                   />
@@ -146,8 +147,8 @@ const HomeNavbar = () => {
   {/* career end */}
 
   {/* Footer start */}
-  
-  {/* career end */}
+      <Footer/>
+  {/* Footer end */}
     </>
   );
 };

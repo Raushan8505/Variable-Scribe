@@ -1,101 +1,98 @@
 /* Footer.css */
 
-.bottom-section-f8 {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
-  .bottom-logo-altassian {
-    margin-bottom: 20px;
-  }
-  
-  .bottom-logo-altassian img {
-    width: 200px;
-    height: auto;
-  }
-  
-  .four-section-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-  }
-  
+.footer-container {
+  background-color: #f0f0f0; /* Background color for the footer */
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-image {
+  width: 200px;
+  height: auto;
+  filter: brightness(0.7); /* Apply a blue tint to the logo */
+  margin-bottom: 20px;
+}
+
+.four-section-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-footer-section {
+  flex: 1;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.plan-track-support-footer {
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.bottom-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.bottom-class-link {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bottom-class-link-special {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Horizontal Rule */
+.horizontal-rule {
+  width: 100%;
+}
+
+.horizontal-rule hr {
+  border: 0.5px solid #333;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 700px) {
   .container-footer-section {
-    flex: 1;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    flex-basis: 50%;
+    text-align: center;
   }
-  
-  .plan-track-support-footer {
-    margin-bottom: 20px;
-  }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
+
   .column {
-    flex: 1;
-    margin-right: 20px;
+    flex-basis: 50%;
   }
-  
-  .bottom-heading {
-    font-size: 18px;
-    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .container-footer-section {
+    flex-basis: 50%;
+    margin-right: 0;
+    text-align: center;
   }
-  
-  .bottom-class-link {
-    color: #333;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 5px;
+
+  .column {
+    flex-basis: 100%;
+    margin-right: 0;
   }
-  
-  .bottom-class-link-special {
-    color: #333;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  /* Horizontal Rule */
-  .horizontal-rule {
-    width: 100%;
-  }
-  
-  .horizontal-rule hr {
-    border: 0.5px solid #333;
-  }
-  
-  /* Media queries for responsiveness */
-  @media only screen and (max-width: 700px) {
-    .container-footer-section {
-      flex-basis: 50%;
-      text-align: center;
-    }
-  
-    .column {
-      flex-basis: 50%;
-    }
-  }
-  
-  @media only screen and (max-width: 400px) {
-    .container-footer-section {
-      flex-basis: 100%;
-      margin-right: 0;
-      text-align: center;
-    }
-  
-    .column {
-      flex-basis: 100%;
-      margin-right: 0;
-    }
-  }
-  
+}
