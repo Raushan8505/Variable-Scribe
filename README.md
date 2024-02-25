@@ -69,7 +69,7 @@ Atlassian's team collaboration software like Trello and POS help teams organize,
 
 
 **LOGIN AND SIGN IN**
-![login](https://github.com/heyyrahul/python-magician-6789/assets/79692865/e2492239-d727-411f-922e-3f6669270593)
+
 
 
 
@@ -84,7 +84,7 @@ Atlassian's team collaboration software like Trello and POS help teams organize,
 
 
 **TEAMS**
-![About](https://github.com/heyyrahul/python-magician-6789/assets/79692865/312e668b-561a-4a2f-bb9b-4f9805feafa2)
+
 
 
 
