@@ -114,3 +114,16 @@
   .img{
      height: auto;
   }
+
+
+
+
+
+  .load{
+      padding-top: 120px;
+      height: 65vh;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+  }

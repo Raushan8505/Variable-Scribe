@@ -8,12 +8,14 @@ import Footer from '../Atlasian_Homepage/Footer';
 import ProductNavbar from './ProductNavbar';
 import { useAuth0 } from '@auth0/auth0-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import load from '../../assets/loading.gif'
 
 
 function ProductCard() {
     const dispatch = useDispatch();
     const data = useSelector((state) => state.product?.todos);
     const val = useSelector((state) => state.addProduct);
+    const isLoading = useSelector((state)=>state.product.loading)
     console.log(val);
     const [showAddModal, setShowAddModal] = useState(false);
     const [showEditModal, setShowEditModal] = useState(false);
@@ -92,6 +94,11 @@ function ProductCard() {
     useEffect(() => {
         dispatch(getPost());
     }, [dispatch])
+    if (isLoading) {
+        return (
+          <div className='load'><div><img src={load} alt="Loader" /></div></div>
+        )
+      }
 
     return (
         <>
