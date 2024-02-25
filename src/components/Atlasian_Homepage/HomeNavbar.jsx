@@ -11,13 +11,13 @@ import pic4 from '../../assets/Home_Imgs/Desktop_BR-2x.png';
 import AtlassianSolution from './AtlassianSolution';
 import Essential from './Essential';
 import Career from './Career';
-import Footer from './Footer';
+
 
 const navigation = [
-  { name: "Trello", to: "/Trello", current: false },
+  { name: "Trello", to: "https://tasknet-trello.vercel.app/", current: false },
   { name: "POS", to: "/POS", current: false },
   { name: "Resources", to: "/Resources", current: false },
-  { name: "About", to: "/About", current: false },
+  { name: "Team", to: "/Team", current: false },
 ];
 
 function classNames(...classes) {
@@ -146,7 +146,7 @@ const HomeNavbar = () => {
   {/* career end */}
 
   {/* Footer start */}
-  <Footer/>
+  
   {/* career end */}
     </>
   );

@@ -1,130 +1,156 @@
 /* Atlassian Solution CSS */
 
 .atlassian-container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .atlassian-h1 {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 20px;
-  }
-  
-  .atlassian-wrap {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    flex-wrap: wrap;
-  }
-  
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/Home_Imgs/solution3.png");
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position:350px 40px; /* Adjust background position */
+}
+
+.atlassian-h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.atlassian-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.atlassian-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: blue;
+  color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.cards_and_imgs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* border: 1px solid blue; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.atlassian-card {
+  width: 80%;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.atlassian-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.atlassian-group {
+  margin-left: 20px;
+}
+
+.atlassian-group h5 {
+  margin: 0;
+}
+
+.atlassian-group p {
+  margin: 5px 0;
+}
+
+.atlassian-sect1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.atlassian-h2 {
+  text-align: center;
+}
+
+.atlassian-sect2 {
+  text-align: center;
+}
+
+.text_and_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.atlassian-sect2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.company {
+  width: 80vw; 
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid black;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
   .atlassian-button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: blue;
-    color: #f0f0f0;
-    border-radius: 10px;
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: blue;
+      color: #f0f0f0;
+      border-radius: 10px;
   }
-  
-  .cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
+
   .atlassian-card {
-    flex: 1 1 300px;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .atlassian-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-  }
-  
-  .atlassian-group {
-    margin-left: 20px;
-  }
-  
-  .atlassian-group h5 {
-    margin: 0;
-  }
-  
-  .atlassian-group p {
-    margin: 5px 0;
-  }
-  
-  .atlassian-sect1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-  }
-  
-  .atlassian-h2 {
-    text-align: center;
-  }
-  
-  .atlassian-sect2 {
-    text-align: center;
-  }
-  
-  .text_and_img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .card_text {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  /* Ensure Solution3 image remains visible */
-  .atlassian-sect2 img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .company{
-    width: 100vw;
-  }
-  /* Media queries */
-  @media screen and (max-width: 768px) {
-    .atlassian-button {
       flex: 1 1 100%;
-      margin: 10px 0;
-    }
-  
-    .atlassian-card {
-      flex: 1 1 100%;
-    }
-  
-    .atlassian-h1 {
+  }
+
+  .atlassian-h1 {
       font-size: 24px;
-    }
   }
-  
+
+  .cards {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+  }
+}

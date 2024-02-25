@@ -5,8 +5,10 @@ import community from "../../assets/Home_Imgs/Community.jpg";
 const Essential = () => {
   return (
     <div className="container">
+      
       <div className="wrap1">
-        <h4 className="h4">TEAM ESSENTIALS</h4>
+      <hr className='hr' />
+        <h5 className="h5">TEAM ESSENTIALS</h5>
         <h1 className="h1">Explore resources to unleash the potential of your team</h1>
       </div>
       <div className="wrap2">
