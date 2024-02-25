@@ -8,12 +8,14 @@ import Footer from '../Atlasian_Homepage/Footer';
 import ProductNavbar from './ProductNavbar';
 import { MdDelete } from "react-icons/md";
 import { useAuth0 } from '@auth0/auth0-react';
+import { useNavigate } from 'react-router-dom';
 
 function Billing() {
     const val = useSelector((state) => state.product?.todos);
     const cart = useSelector((state) => state?.cart);
     const [total, setTotal] = useState(0);
     const {isAuthenticated } = useAuth0();
+    const navigate = useNavigate();
     // console.log(cart);
     const dispatch = useDispatch();
     useEffect(() => {
@@ -28,6 +30,14 @@ function Billing() {
         dispatch(getPost());
     }, [dispatch])
 
+    const handleProceedToPayment = () => {
+        if (cart.length > 0) {
+            navigate(`/triloHome/payment?total=${total}`);
+        } else {
+            alert('Your cart is empty. Add products to proceed.');
+        }
+    };
+    
     return (
         <>
         <ProductNavbar isAuthenticated={isAuthenticated}/>
@@ -82,6 +92,7 @@ function Billing() {
                    <h6>Total Product: <strong>{cart.length}</strong></h6>  
                    <h6>Total Price: <strong>{total}</strong></h6> 
                     </Card.Footer>
+                    <button  onClick={handleProceedToPayment} className='proceed-to-pay'>Proceed to Pay</button>
             </Card>
         </div>
         <Footer/>
@@ -89,4 +100,4 @@ function Billing() {
     )
 }
 
-export default Billing
+export default Billing 

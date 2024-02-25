@@ -114,3 +114,9 @@
   .img{
      height: auto;
   }
+
+  .proceed-to-pay{
+    background-color: #00bfa5;
+    color: white;
+    padding: 10px;
+  }

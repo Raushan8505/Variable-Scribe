@@ -5,6 +5,8 @@ import Resources from './Atlasian_Homepage/Resources'
 import Billing from './ProductCard/Billing'
 import ProductCard from './ProductCard/ProductCard'
 import CommonRoutes from './ProductCard/CommonRoutes'
+import PaymentPage from './ProductCard/PaymentPage'
+import PaymentSuccessfull from './ProductCard/PaymentSuccessfull'
 
 const AllRoutes = () => {
   return (
@@ -14,6 +16,8 @@ const AllRoutes = () => {
         <Route path='/triloHome' element={<CommonRoutes/>}/>
         <Route path='/triloHome/billing' element={<Billing/>}/>
         <Route path='/triloHome/product' element={<ProductCard/>}/>
+        <Route path ='/triloHome/payment' element={<PaymentPage/>}/>
+        <Route path ='/triloHome/paymentsuccess' element={<PaymentSuccessfull/>}/>
 
     </Routes>
   )
