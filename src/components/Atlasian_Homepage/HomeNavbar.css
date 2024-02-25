@@ -1,102 +1,100 @@
-/* hero css start */
-
-/* styles/hero.css */
-
-/* styles/hero.css */
-
 .hero-container {
-    position: relative;
-    height: 100vh;
-    background-color: #0054bb;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .hero-title1 {
-    font-size: 2.5rem;
-    font-weight: 500;
-  }
-  
-  .hero-title2 {
-    font-size: 2.5rem;
-    font-weight: 800;
-    margin-left: 2rem;
-  }
-  
+  position: relative;
+  height: 100vh;
+  background-color: #0054bb;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+nav{
+  position: sticky;
+  z-index: 1000;
+  top:0;
+}
+.hero-title1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.hero-title2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-left: 2rem;
+}
+
+.hero-description {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.background-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.background-image {
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-image1 {
+  width: 50%;
+  height: 50%;
+  top: 0;
+  left: 0;
+}
+
+.background-image2 {
+  width: 45%;
+  height: 45%;
+  top: 0;
+  right: 0;
+}
+
+.background-image3 {
+  width: 30%;
+  height: 30%;
+  bottom: 0;
+  left: 0;
+}
+
+.background-image4 {
+  width: 30%;
+  height: 30%;
+  bottom: 0;
+  right: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-title1,
+  .hero-title2,
   .hero-description {
-    margin-top: 1rem;
-    font-size: 1.5rem;
-  }
-  
-  .background-images {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  
-  .background-image {
-    position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 0;
   }
   
   .background-image1 {
-    width: 50%;
-    height: 50%;
-    top: 0;
-    left: 0;
+    width: 40%;
+    height: 40%;
   }
-  
+
   .background-image2 {
-    width: 45%;
-    height: 45%;
-    top: 0;
-    right: 0;
+    width: 35%;
+    height: 35%;
   }
-  
-  .background-image3 {
-    width: 30%;
-    height: 30%;
-    bottom: 0;
-    left: 0;
-  }
-  
+
+  .background-image3,
   .background-image4 {
-    width: 30%;
-    height: 30%;
-    bottom: 0;
-    right: 0;
+    width: 25%;
+    height: 25%;
   }
-  
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .hero-title1,
-    .hero-title2,
-    .hero-description {
-      text-align: center;
-      margin-left: 0;
-    }
-    
-    .background-image1 {
-      width: 40%;
-      height: 40%;
-    }
-  
-    .background-image2 {
-      width: 35%;
-      height: 35%;
-    }
-  
-    .background-image3,
-    .background-image4 {
-      width: 25%;
-      height: 25%;
-    }
-  }
-  
-  /* Hero css ends  */
+}
+
+/* Hero css ends  */

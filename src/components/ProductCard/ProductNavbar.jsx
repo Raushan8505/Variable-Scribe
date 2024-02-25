@@ -10,7 +10,7 @@ function ProductNavbar({isAuthenticated}) {
     console.log(isAuthenticated);
 
     return (
-      <nav>
+      <nav id='ProductNavbar_A'>
        
          <img className="logo" src='https://assets-global.website-files.com/5f32b7eea3b2c90751809aca/62bd60e5f7647998b2d3709d_Trilo%20Logo.svg' alt="logo" />
         
