@@ -1,71 +1,84 @@
 .container {
-    width: 100vw;
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box; /* Include padding in width calculation */
-  }
-  
-  .wrap1, .wrap2 {
-    width: 100%;
-    max-width: 100vw; /* Set maximum width */
-    padding: 20px;
-    text-align: center;
-    box-sizing: border-box; /* Include padding in width calculation */
-  }
-  
-  .h4 {
-    color: #508EFF;
-  }
-  
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box; /* Include padding in width calculation */
+  border: 1px solid rgb(25, 93, 240);
+  margin: auto;
+  margin-top: 50px;
+
+}
+
+.wrap1, .wrap2 {
+  width: 100%;
+  max-width: 100vw; /* Set maximum width */
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+.hr{
+  color: #4377d8;
+  margin-top: 20px;
+  width: auto;
+  height: 5px;
+  background-color: #4377d8;
+}
+.h5 {
+  font-weight: 700 ;
+  color: #4377d8;
+  font-size:30px;
+}
+
+.h1 {
+  color: #2162d9;
+  font-size: 1.5rem; /* Responsive font size */
+}
+
+.wrap2 {
+  background-color: #d5d9e1;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.para, .p, .set {
+  padding: 10px 0; /* Adjust padding */
+}
+
+.para {
+  font-size: 2rem; /* Responsive font size */
+  color: #253858;
+}
+
+.p {
+  font-weight: 400;
+  font-size: larger;
+  color: #161718;
+}
+
+.set {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.set p {
+  margin: 0;
+  color: #4377d8;
+}
+
+/* Media queries for tablet and mobile devices */
+@media screen and (max-width: 768px) {
+
+
   .h1 {
-    color: #253858;
-    font-size: 1.5rem; /* Responsive font size */
+    font-size: 1.2rem; /* Responsive font size */
   }
-  
-  .wrap2 {
-    background-color: #FFFAE5;
-    border-radius: 7px;
-    margin-top: 20px;
-  }
-  
-  .image {
-    width: 100%;
-    border-radius: 5px;
-  }
-  
-  .para, .p, .set {
-    padding: 10px 0; /* Adjust padding */
-  }
-  
-  .para {
-    font-size: 1rem; /* Responsive font size */
-    color: #253858;
-  }
-  
-  .p {
-    font-weight: 400;
-    color: #253858;
-  }
-  
-  .set {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    cursor: pointer;
-  }
-  
-  .set p {
-    margin: 0;
-  }
-  
-  /* Media queries for tablet and mobile devices */
-  @media screen and (max-width: 768px) {
-  
-  
-    .h1 {
-      font-size: 1.2rem; /* Responsive font size */
-    }
-  }
-  
+}

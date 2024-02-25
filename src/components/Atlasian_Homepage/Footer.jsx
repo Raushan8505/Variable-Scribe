@@ -1,4 +1,4 @@
-import "../Atlasian_Homepage/Footer.css";
+import "./Footer.css";
 
 const Footer = () => {
   return (

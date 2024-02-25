@@ -3,7 +3,7 @@
     color: white;
 }
 
-nav {
+#ProductNavbar_A {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +17,7 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-nav .title {
+#ProductNavbar_A .title {
     font-size: 1.5rem;
     margin: 1rem;
     font-weight: bold;
@@ -25,16 +25,16 @@ nav .title {
     color: white;
 }
 
-nav ul {
+#ProductNavbar_A ul {
     display: flex;
 }
 
-nav ul li {
+#ProductNavbar_A ul li {
    list-style: none; 
    
 }
 
-nav ul li a {
+#ProductNavbar_A ul li a {
     display: block;
     text-decoration: none;
     padding: 0.5rem;
@@ -42,11 +42,11 @@ nav ul li a {
     border-radius: 0.5rem;
 }
 
-nav ul li a:not(.active):hover {
+#ProductNavbar_A ul li a:not(.active):hover {
     background-color: #00bfa5;
 }
 
-nav .menu {
+#ProductNavbar_A .menu {
     display: none;
     position: absolute;
     top: 0.75rem;
@@ -57,7 +57,7 @@ nav .menu {
     height: 2rem;
 }
 
-nav .menu span {
+#ProductNavbar_A .menu span {
     height: 0.4rem;
     width: 100%;
     background-color: black;
@@ -67,33 +67,33 @@ nav .menu span {
 
 
 @media (max-width: 480px) {
-    nav .menu {
+    #ProductNavbar_A .menu {
         display: flex;
     }
 
-    nav {
+    #ProductNavbar_A {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    nav ul {
+    #ProductNavbar_A ul {
         display: none;
         flex-direction: column;
         width: 100%;
         margin-bottom: 0.25rem;
     }
 
-    nav ul.open {
+    #ProductNavbar_A ul.open {
         display: flex;
     }
 
-    nav ul li {
+    #ProductNavbar_A ul li {
         width: 100%;
         text-align: center;
        
     }
 
-    nav ul li a {
+    #ProductNavbar_A ul li a {
         margin: 0.2rem 0.5rem;
        
     }
