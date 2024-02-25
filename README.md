@@ -15,8 +15,8 @@ Atlassian's team collaboration software like Trello and POS help teams organize,
 ## Features
 
 - **User Authentication:** Secure user authentication system to register and log in.
-- **Product - POS :** Your customers can shop and pay in a few seconds, while your team can build a closer relationship with them, growing your sales and improving your customers experience all-round.
-- **Product - TRELLO :** Simple, flexible, and powerful. All it takes are boards, lists, and cards to get a clear view of who’s doing what and what needs to get done.
+- **Product - TRILO :** Your customers can shop and pay in a few seconds, while your team can build a closer relationship with them, growing your sales and improving your customers experience all-round.
+- **Product - TASKNEST :** Simple, flexible, and powerful. All it takes are boards, lists, and cards to get a clear view of who’s doing what and what needs to get done.
 - **Resources:** Check out some latest blogs, Check team health, visit our resources.
 - **Team:** Our Team.
 - **Responsive Design:** Ensure a smooth user experience across various devices.
