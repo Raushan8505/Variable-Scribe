@@ -15,7 +15,7 @@ import Footer from './Footer';
 
 const navigation = [
   { name: "Trello", to: "/Trello", current: false },
-  { name: "POS", to: "/POS", current: false },
+  { name: "POS", to: "/triloHome", current: false },
   { name: "Resources", to: "/Resources", current: false },
   { name: "About", to: "/About", current: false },
 ];
