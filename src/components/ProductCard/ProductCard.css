@@ -127,3 +127,9 @@
       justify-content: center;
       align-items: center;
   }
+
+  .proceed-to-pay{
+    background-color: #00bfa5;
+    color: white;
+    padding: 10px;
+  }
