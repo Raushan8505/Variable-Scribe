@@ -18,7 +18,7 @@ Atlassian's team collaboration software like Trello and POS help teams organize,
 - **Product - POS :** Your customers can shop and pay in a few seconds, while your team can build a closer relationship with them, growing your sales and improving your customers experience all-round.
 - **Product - TRELLO :** Simple, flexible, and powerful. All it takes are boards, lists, and cards to get a clear view of who’s doing what and what needs to get done.
 - **Resources:** Check out some latest blogs, Check team health, visit our resources.
-- **About:** Our Team.
+- **Team:** Our Team.
 - **Responsive Design:** Ensure a smooth user experience across various devices.
 
 
@@ -57,11 +57,15 @@ Atlassian's team collaboration software like Trello and POS help teams organize,
 #PROJECT LOGO
 <br>
 
-![syloan logo](https://github.com/heyyrahul/python-magician-6789/assets/79692865/137f6416-f173-4328-987f-aa36d3ef86f3)
+![LOGO](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/2fa8db44-550c-42bd-9293-f289267b1889)
 
 ## Screenshots
 **HOME PAGE**
-![homepage](https://github.com/heyyrahul/python-magician-6789/assets/79692865/c506c1b7-e63b-4dcd-98bf-33ccdd4b73a6)
+![HomePage](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/65333705-81de-468e-b97f-b70e2535d63d)
+![Products](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/907d8c5f-2f91-42ac-aa68-05afd79d96a9)
+![Team Essentials](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/ad367880-99ed-434d-829b-608ac9f99471)
+![Careers](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/a522bd5d-740e-41ff-8f03-2ebf9e3b4d6c)
+![Footer](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/4cc047d2-fb57-4496-b95a-c2f750f30713)
 
 
 **LOGIN AND SIGN IN**
@@ -69,29 +73,26 @@ Atlassian's team collaboration software like Trello and POS help teams organize,
 
 
 
-
 **PRODUCT PAGE**
+![Product1](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/2935b06e-0092-4b81-8504-dedef8e24dbb)
+![Product2](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/09d6b8fe-30af-4d24-afdb-81617e6de4c9)
+![Product3](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/b18af0da-b92c-4aee-92e5-189747b4048b)
+![Product4](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/bae0ff63-3787-4189-aa0e-152326503f3f)
+![Product5](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/02aa2ae1-d283-4c2a-bb69-e1cc22ac949c)
+![Trello1](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/bef39fe3-fde2-46d0-bbc3-bfc6b9a87036)
+![Trello2](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/cb9121a8-811e-4add-920b-75a3c675b248)
 
-![product](https://github.com/heyyrahul/python-magician-6789/assets/79692865/731aaa44-83f8-458a-a7af-e712f89e7cce)
 
-
-
-
-**ABOUT**
+**TEAMS**
 ![About](https://github.com/heyyrahul/python-magician-6789/assets/79692865/312e668b-561a-4a2f-bb9b-4f9805feafa2)
 
 
-**SUPPORT**
-![newsupport](https://github.com/heyyrahul/python-magician-6789/assets/79692865/d9e531f2-74df-4a61-8bb7-4e701096b3c2)
-
-
-**ADMIN LOGIN**
-![adminlogin](https://github.com/heyyrahul/python-magician-6789/assets/79692865/3b1e8269-4e35-42a2-9898-db793a9c0199)
-**ADMIN PAGE**
-![admin dashboard](https://github.com/heyyrahul/vivid-roll-405/assets/79692865/d8e7eb3b-c80c-4058-91a4-1780249d726f)
 
 **RESPONSIVENESS**
-![res](https://github.com/heyyrahul/vivid-roll-405/assets/79692865/cb99fa72-bdb1-4b88-86cd-cbdb04f8fea9)
+![Product Responsiveness](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/8dbf3db0-3dd9-483e-9b3c-c54e4fcc969e)
+![Product Responsiveness2](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/291f043a-04f2-4bf1-b063-2e093a6bd1a5)
+![Product Responsiveness3](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/6c2be04c-70f7-4994-a7a2-705629403a67)
+![Trello Responsive](https://github.com/Raushan8505/Variable-Scribe/assets/59911232/4648d09a-00fa-4468-8713-ec3cd2eddb55)
 
 ## THANK YOU 🙏
 
