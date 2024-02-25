@@ -2,7 +2,7 @@
 
 Atlassian's team collaboration software like Jira, Confluence and Trello help teams organize, discuss, and complete shared work. Our mission is to help unleash the potential of every team.
  <br>
- [SyLoan live Demo](frolicking-sopapillas-3d5b65.netlify.app/)
+ [Atlassian live Demo](frolicking-sopapillas-3d5b65.netlify.app/)
 
 
 ## Table of Contents
