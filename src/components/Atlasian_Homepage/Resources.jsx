@@ -15,8 +15,8 @@ import Footer from './Footer';
 
 const navigation = [
   { name: "Home", to: "/", current: false },
-  { name: "Trello", to: "https://tasknet-trello.vercel.app/", current: false },
-  { name: "POS", to: "/POS", current: false },
+  { name: "Tasknest", to: "https://tasknet-trello.vercel.app/", current: false },
+  { name: "Trilo", to: "/triloHome", current: false },
   { name: "Resources", to: "/Resources", current: false },
   { name: "Team", to: "/Team", current: false },
 ];

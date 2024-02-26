@@ -16,8 +16,8 @@ function CommonRoutes() {
     <Carousel data-bs-theme="dark">
       <Carousel.Item>
         <img
-          className="d-block w-100" style={{height:"400px"}}
-          src="https://img.freepik.com/free-psd/creative-co-working-social-media-posts_23-2149000362.jpg?size=626&ext=jpg&ga=GA1.1.1840572523.1702298148&semt=ais"
+          className="d-block w-100" style={{height:"500px"}}
+          src="https://assets-global.website-files.com/60edc0a8835d5b38bf11f03f/61cf09d357f5526f33a34d59_Importance-of-Inventory-Management-in-Purchasing-Process.jpeg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -27,8 +27,8 @@ function CommonRoutes() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100" style={{height:"400px"}}
-          src="https://img.freepik.com/free-psd/hand-drawn-marketing-instagram-posts-template_23-2149991341.jpg?size=626&ext=jpg&ga=GA1.1.1840572523.1702298148&semt=ais"
+          className="d-block w-100" style={{height:"500px"}}
+          src="https://quickbooks.intuit.com/oidam/intuit/sbseg/en_us/Blog/Graphic/inventory-management-illustration.png"
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -38,8 +38,8 @@ function CommonRoutes() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 " style={{height:"400px"}}
-          src="https://img.freepik.com/free-vector/hand-drawn-hospital-template-design_23-2150340790.jpg?size=626&ext=jpg&ga=GA1.1.1840572523.1702298148&semt=ais"
+          className="d-block w-100 " style={{height:"500px"}}
+          src="https://thumbs.dreamstime.com/z/business-leadership-management-vision-professional-concept-48583135.jpg?ct=jpeg"
           alt="Third slide"
         />
         <Carousel.Caption>
