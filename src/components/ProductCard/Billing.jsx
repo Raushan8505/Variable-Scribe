@@ -9,10 +9,12 @@ import ProductNavbar from './ProductNavbar';
 import { MdDelete } from "react-icons/md";
 import { useAuth0 } from '@auth0/auth0-react';
 import { useNavigate } from 'react-router-dom';
+import load from "../../assets/loading.gif"
 
 function Billing() {
     const val = useSelector((state) => state.product?.todos);
     const cart = useSelector((state) => state?.cart);
+    const isLoading = useSelector((state)=>state.product.loading)
     const [total, setTotal] = useState(0);
     const {isAuthenticated } = useAuth0();
     const navigate = useNavigate();
@@ -29,6 +31,18 @@ function Billing() {
     useEffect(() => {
         dispatch(getPost());
     }, [dispatch])
+
+    if (isLoading) {
+        return (
+         <>
+         <ProductNavbar/>
+        <div className='load'>
+            <div><img src={load} alt="Loader" /></div>
+        </div>
+        <Footer/>
+        </>
+        )
+      }
 
     const handleProceedToPayment = () => {
         if (cart.length > 0) {

@@ -96,7 +96,13 @@ function ProductCard() {
     }, [dispatch])
     if (isLoading) {
         return (
-          <div className='load'><div><img src={load} alt="Loader" /></div></div>
+         <>
+         <ProductNavbar/>
+        <div className='load'>
+            <div><img src={load} alt="Loader" /></div>
+        </div>
+        <Footer/>
+        </>
         )
       }
 
